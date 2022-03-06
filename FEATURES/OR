@@ -1,0 +1,45 @@
+#Valid Login
+object[browserType,browser]
+object[username]=//input[@placeholder='Username'
+object[Password]=//input[@placeholder='Password'
+object[Login]=//span[contains(text(),'Login')
+object[LOGOUT]=//a[normalize-space()='LOGOUT']
+#compare[Expected,Actual]
+
+#invalid login
+object[Username]=//input[@placeholder='Username'
+object[Password]=//input[@placeholder='Password'
+object[Login]=//span[contains(text(),'Login')
+object[errormessage]=//div[@id='error']
+
+#CreateCompany
+object[financial_analysis]=//div[contains(text(),'Financial Analysis')]
+object[company]=//div[@id='_easyui_tree_1']//span[@class='tree-title'][normalize-space()='Company']
+object[manage_company]=//a[@title='Manage Company']
+object[new]=//span[normalize-space()='New']
+object[companyname]=//input[@name='name']
+object[companytype]=//select[@id='companytype']
+object[subcompanytype]=//input[@name='subtype']
+object[address]=//input[@name='address']/preceding-sibling::textarea
+object[phone]=//input[@name='phone']/preceding-sibling::input
+object[email]=//input[@name='email']
+object[pandetails]=//input[@name='pan']
+object[tindetails]=//input[@name='tin']
+object[mobile]=//input[@name='mobile']/preceding-sibling::input
+object[website]=//input[@name='website']
+object[country]=//select[@id='countryid']
+object[state]=//select[@id='state']
+object[city]=//select[@id='city']
+object[totalemployee]=//input[@name='totalemployee']/preceding-sibling::input
+object[save]=//span[normalize-space()='Save']
+object[Kalsoft]=//div[normalize-space()='Kalsoft']
+
+
+
+
+
+
+
+
+
+
