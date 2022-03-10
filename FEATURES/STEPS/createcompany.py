@@ -3,8 +3,6 @@ from selenium.webdriver.support.select import Select
 # from FEATURES.STEPS.Login import *
 from selenium import webdriver
 
-#github Demo with M
-#Edit github with Meh
 @given('user is on the Home page')
 def homepg(context):
     txt = context.driver.current_url
